@@ -105,6 +105,9 @@ a.selected {
 	font-family: noto-emoji;
 }
 
+/*nobody steal my image lol*/
+img {pointer-events: none;}
+
 
 /* HEADER CONTENT */
 
@@ -254,7 +257,7 @@ span:hover, .lbl-toggle:hover:after {
 
 .text-container {
 	width: 60%;
-	margin: 20px auto;
+	margin: 20px auto 30px auto;
 }
 
 .project-title {
