@@ -19,7 +19,7 @@ body {
 	-moz-font-feature-settings: "lnum";
 	-webkit-font-feature-settings: "lnum";
 	font-feature-settings: "lnum";
-	background: #cccccc;
+	background: black;
 	margin: 0;
 }
 
@@ -203,17 +203,17 @@ span:hover, .lbl-toggle:hover:after {
 	position: absolute;
 	left: 0;
 	top: 0;
-	transition: .3s opacity ease-out;
-		-webkit-transition: .3s opacity ease-out;
-		-moz-transition: .3s opacity ease-out;
-		-o-transition: .3s opacity ease-out;
+	transition: .2s opacity ease-out;
+		-webkit-transition: .2s opacity ease-out;
+		-moz-transition: .2s opacity ease-out;
+		-o-transition: .2s opacity ease-out;
 }
 
 .list-image img {
-	transition: .3s filter ease-out;
-		-webkit-transition: .3s filter ease-out;
-		-moz-transition: .3s filter ease-out;
-		-o-transition: .3s filter ease-out;
+	transition: .2s filter ease-out;
+		-webkit-transition: .2s filter ease-out;
+		-moz-transition: .2s filter ease-out;
+		-o-transition: .2s filter ease-out;
 }
 
 .list-image:hover .hover {
@@ -221,7 +221,7 @@ span:hover, .lbl-toggle:hover:after {
 }
 
 .list-image:hover img {
-	filter: blur(5px);
+	filter: blur(10px);
 }
 
 .list-image:hover .list-text {
@@ -240,10 +240,10 @@ span:hover, .lbl-toggle:hover:after {
 	align-items: center;
 	text-align: center;
 	opacity: 0;
-	transition: .3s opacity ease-out;
-		-webkit-transition: .3s opacity ease-out;
-		-moz-transition: .3s opacity ease-out;
-		-o-transition: .3s opacity ease-out;
+	transition: .2s opacity ease-out;
+		-webkit-transition: .2s opacity ease-out;
+		-moz-transition: .2s opacity ease-out;
+		-o-transition: .2s opacity ease-out;
 }
 
 
