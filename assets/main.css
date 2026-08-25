@@ -203,7 +203,7 @@ span:hover, .lbl-toggle:hover:after {
 /* SELECTED WORKS PAGE */
 
 .book-grid {
-	margin: 0 3em 3em 3em;
+	margin: 0 3em;
 
 	display: flex;
 	flex-wrap: wrap;
@@ -536,7 +536,7 @@ img {
 	}
 
 	.book-grid {
-		margin: 0 2em 2em 2em;
+		margin: 0 2em;
 		flex-direction: row;
 		flex-wrap: wrap;
 		align-items: center;
