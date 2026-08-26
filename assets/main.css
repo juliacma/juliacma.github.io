@@ -1,4 +1,3 @@
-@import url("https://use.typekit.net/ijg1hds.css");
 @import url("https://use.typekit.net/gdi4aus.css");
 
 @font-face {
@@ -40,7 +39,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "cofo-gothic-variable",sans-serif;
   font-variation-settings: 'wght' 400;
 	font-style: normal;
-	/*letter-spacing: -.01em;*/
 	margin: 0;
 	line-height: 1.1;
 }
@@ -81,32 +79,9 @@ h1 a {
 	color: black;
 }
 
-p a:hover {
-	/*text-decoration: underline;*/
-}
-
-a.selected {
-	/*color: black;*/
-}
-
 a.selected:hover {
 	color: #97b538;
 }
-
-.project-type {
-	font-style: italic;
-	font-weight: 200;
-	font-size: .8em;
-	/*background-color: rgba(0, 0, 0, .9);
-	padding: 0 10px 10px 10px;
-	width: 75%;*/
-}
-
-/*.project-name {
-	background-color: rgba(0, 0, 0, .9);
-	padding: 10px 10px 0 10px;
-	width: 75%;
-}*/
 
 .emoji {
 	font-family: noto-emoji;
@@ -121,7 +96,6 @@ img {pointer-events: none;}
 .header {
 	display: flex;
 	flex-direction: row-reverse;
-	/*margin: calc(20px + 1vw) calc(20px + 3vw) calc(30px + 2vw) calc(20px + 3vw);*/
 	margin: 2em 3em;
 	justify-content: space-between;
 	align-items: baseline;
@@ -171,16 +145,12 @@ span:hover, .lbl-toggle:hover:after {
 
 .toggle:checked + .lbl-toggle {
 	position: fixed;
-/*	top: calc(30px + 1.75vw);
-	right: calc(20px + 3vw);*/
 	top:3.25em;
 	right:3.1em;
 }
 
 .toggle:checked ~ .name {
 	position: fixed;
-	/*top: calc(18.75px + 1.2vw);
-	left: calc(20px + 3vw);*/
 	top: .8em;
 	left: 1.2em;
 }
@@ -220,7 +190,6 @@ span:hover, .lbl-toggle:hover:after {
 
 .book img {
 	flex:1; 
-	/*height:300px;*/
 }
 
 .book-end {
@@ -292,8 +261,8 @@ span:hover, .lbl-toggle:hover:after {
 #alvarez-bravo {order: 17;}
 #archigram {order: 18;}
 #soanr {order: 19;}
-#cai {order: 20;}
-#emily-thompson-flowers {order: 21;}
+#emily-thompson-flowers {order: 20;}
+#cai {order: 21;}
 #chinese-bronzes {order: 22;}
 #tom-lloyd {order: 23;}
 #temkin {order: 24;}
@@ -319,7 +288,6 @@ span:hover, .lbl-toggle:hover:after {
 /* ABOUT PAGE */
 
 .about-container {
-	/*width: 1200px;*/
 	display: grid;
 	margin: 0 3em 3em 3em;
 	gap:2em;
@@ -330,13 +298,10 @@ span:hover, .lbl-toggle:hover:after {
 .about-text {
 	width: 80%;
 	margin: auto;
-	/*padding-top: 1em;*/
-
 }
 
 .about-container img {
 	height: calc(100vh - 10em);
-	/*object-fit: cover;*/
 }
 
 /* YALE PAGE CONTENT */
@@ -415,8 +380,6 @@ span:hover, .lbl-toggle:hover:after {
 		-o-transition: .2s opacity ease-out;
 }
 
-
-
 /* YALE PROJECT PAGE CONTENT*/
 
 .page-container {
@@ -447,7 +410,6 @@ img {
 }
 
 
-
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 1320px) {
@@ -456,13 +418,6 @@ img {
 		padding: 0 3em;
 	}
 }
-
-/*@media screen and (max-width: 1000px) {
-.grid {
-		margin-right: 30px;
-		margin-left: 30px;
-	}
-}*/
 
 @media screen and (max-width: 800px) {
 	.page-container {
@@ -494,7 +449,6 @@ img {
 	}
 }
 
-
 @media screen and (max-width: 640px) {
 	.text-container {
 		width: 100%;
@@ -512,22 +466,10 @@ img {
 		display: flex;
 	}
 
-	/*.regular-menu {
-		display: none;
-	}
-
-	.expanding-menu {
-		display: block;
-	}*/
-
 	.lbl-toggle {
 		display: block;
 		flex: 1;
 	}
-
-	/*.menu {
-		display: none;
-	}*/
 
 	.header nav a {
 		text-align: center;
